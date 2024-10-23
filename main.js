@@ -14,14 +14,14 @@ const chalk = require('chalk')
 const FileType = require('file-type')
 const path = require('path')
 const axios = require('axios')
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('263786484652')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
 const { default: XeonBotIncConnect, delay, PHONENUMBER_MCC, makeCacheableSignalKeyStore, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, Browsers} = require("@whiskeysockets/baileys")
 const NodeCache = require("node-cache")
 const Pino = require("pino")
 const readline = require("readline")
-const { parsePhoneNumber } = require("libphonenumber-js")
+const { parsePhoneNumber } = require("263786484652")
 const makeWASocket = require("@whiskeysockets/baileys").default
 
 const store = makeInMemoryStore({
